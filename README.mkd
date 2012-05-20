@@ -1,0 +1,26 @@
+**Caution! Very incomplete library ahead. Do not use (!)**
+
+# Introduction
+
+This is a simple i18n module for actionscript 3. It works by loading the 
+translation files on demand or as necessary. The I18n class has a simple
+_(str) method that handles translating strings.
+
+What needs to be translated, has to be handled by the application itself.
+This library just handles loading and parsing of the translation files, it fires
+events upon important events, such as load start/end and language change. It is
+up to the application to listen to those events and translate itself using
+the I81n._(str) function.
+
+# Installation
+
+Just copy the ee folder into your classpath.
+
+# Usage
+
+Meh
+
+# News, updates, todos
+
+Currently only has a .properties file parser, which is very incomplete.
+
